@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.pinimg.com/564x/86/4c/1d/864c1db597f78cdb1afd2be97923b2ea.jpg"); /* Replace 'background.jpg' with your image file path */
+    background-size: cover; /* This property ensures that the background image covers the entire screen */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+header {
+    font-family:cursive;
+    background-color: #ebbbe2;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
