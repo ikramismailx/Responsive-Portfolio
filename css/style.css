@@ -15,3 +15,21 @@ header {
     text-align: center;
     padding: 1em;
 }
+
+
+
+footer {
+    /* grid-area: 3 / 1 / 4 / 4; */
+    padding: 20px;
+    background-color: #cbd0d4;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  
+  .footer a {
+    padding: 14px 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
