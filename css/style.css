@@ -10,18 +10,35 @@ body {
 
 header {
     font-family:cursive;
-    background-color: #ebbbe2;
+    background-color: #e5bcde;
     color: #fff;
     text-align: center;
     padding: 1em;
 }
-
-
+nav {
+    display: flex;
+    background-color: #a8c7e1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  nav img {
+    max-height: 110px;
+    margin-right: 20px;
+  }
 
 footer {
     /* grid-area: 3 / 1 / 4 / 4; */
     padding: 20px;
-    background-color: #cbd0d4;
+    background-color: #a8c7e1;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
