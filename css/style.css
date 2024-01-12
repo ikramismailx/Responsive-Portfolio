@@ -139,7 +139,7 @@ nav {
   
   .books {
     grid-area: books;
-    background-image: url();
+    background-image: url(../images/books.JPG);
   }
   
   
