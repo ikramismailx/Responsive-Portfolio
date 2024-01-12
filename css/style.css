@@ -118,23 +118,23 @@ nav {
   
   .portfolio {
     grid-area: portfolio;
-    background-image: url();
+    background-image: url(../images/challenge-2.jpeg);
   }
   
   .refactor-challenge {
     grid-area: refactor-challenge;
-    background-image: url();
+    background-image: url(../images/challenge-1.jpeg);
   }
   
   
   .travel {
     grid-area: travel;
-    background-image: url();
+    background-image: url(../images/travel.jpeg);
   }
   
   .food {
     grid-area: food;
-    background-image: url();
+    background-image: url(../images/food.JPG);
   }
   
   .books {
