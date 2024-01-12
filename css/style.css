@@ -34,9 +34,124 @@ nav {
     max-height: 110px;
     margin-right: 20px;
   }
+  .page-wrapper {
+    width: 95%;
+    margin: auto;
+  }
+  .page-section {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  
+  .page-section h2 {
+    color: white;
+    border-right: 5px solid rgb(222, 121, 121);
+    padding: 20px 26px;
+    width: 10%;
+    font-size: 1.5rem;
+    text-align: left;
+  }
 
+  
+   #about-me {
+    color: rgb(8, 8, 8);
+    
+    margin: 20px;
+    font-size: 1rem;
+  } 
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 20px rgba(138, 177, 217, 0.1);
+}
+.second-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1.1fr 0.4fr;
+    grid-template-rows: 0.9fr 1.1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "portfolio portfolio portfolio"
+      "refactor-challenge travel travel"
+      "food books books";
+    grid-area: 2 / 2 / 3 / 4;
+  }
+  
+  .second-grid img {
+    max-height: 150px;
+    max-width: 150px;
+    font-size: 1.5em;
+  }
+  
+  h2,
+  h3,
+  .second-grid a {
+    margin: 0;
+    background-color: #d48181;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    text-decoration: none;
+    color: #eee4e4;
+    font-weight: bold;
+  }
+
+
+  .portfolio,
+  .refactor-challenge,
+  .travel,
+  .food,
+  .books {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  
+  .portfolio {
+    grid-area: portfolio;
+    background-image: url();
+  }
+  
+  .refactor-challenge {
+    grid-area: refactor-challenge;
+    background-image: url();
+  }
+  
+  
+  .travel {
+    grid-area: travel;
+    background-image: url();
+  }
+  
+  .food {
+    grid-area: food;
+    background-image: url();
+  }
+  
+  .books {
+    grid-area: books;
+    background-image: url();
+  }
+  
+  
+  h3,
+  .second-grid a {
+    width: fit-content;
+  }
+  
+  
+ 
 footer {
-    /* grid-area: 3 / 1 / 4 / 4; */
+    grid-area: 3 / 1 / 4 / 4;
     padding: 20px;
     background-color: #a8c7e1;
     display: flex;
