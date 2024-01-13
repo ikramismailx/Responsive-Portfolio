@@ -164,4 +164,11 @@ footer {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+  } 
+
+  #contact-me,
+  .footer a {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 16px;
   }
